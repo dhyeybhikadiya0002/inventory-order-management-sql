@@ -1,0 +1,15 @@
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Database exports and local artifacts
+*.dump
+*.backup
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
